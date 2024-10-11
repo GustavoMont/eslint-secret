@@ -4,9 +4,14 @@
   "description": "It's a eslint plugin to prevent exposes secrets",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint:prettier:check": "prettier . --check",
+    "lint:prettier:fix": "prettier . --write"
   },
   "keywords": [],
   "author": "GustavoMont",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
