@@ -7,7 +7,8 @@
     "start": "node index.js",
     "lint:prettier:check": "prettier . --check",
     "lint:prettier:fix": "prettier . --write",
-    "lint:eslint:check": "eslint ."
+    "lint:eslint:check": "eslint .",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "GustavoMont",
@@ -19,6 +20,7 @@
     "eslint": "^9.12.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.11.0",
+    "husky": "^9.1.6",
     "prettier": "^3.3.3"
   }
 }
