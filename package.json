@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "It's a eslint plugin to prevent exposes secrets",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "lint:prettier:check": "prettier . --check",
